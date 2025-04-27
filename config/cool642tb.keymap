@@ -91,10 +91,10 @@
 
         NUM {
             bindings = <
-&kp F1       &kp F2   &kp F3             &kp F4         &kp F5                                                  &kp Y          &kp UP_ARROW    &kp I            &kp INT_MUHENKAN  &kp LANG4
-&kp AT_SIGN  &kp SQT  &kp DOUBLE_QUOTES  &kp SEMICOLON  &kp COLON     &kp N1          &kp INT_KATAKANAHIRAGANA  &kp LEFT       &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RIGHT         &kp LANG_ZENKAKUHANKAKU
-&kp Z        &kp X    &kp C              &kp V          &kp B         &kp LEFT_BRACE  &kp RIGHT_BRACE           &kp LC(SPACE)  &kp RG(SPACE)   &kp LEFT_BRACE   &kp RIGHT_BRACE   &kp SLASH
-&kp RSHIFT   &kp TAB  &kp LCTRL          &kp RGUI       &kp LEFT_ALT  &kp UNDERSCORE  &none                     &lt 2 SPACE                                                       &kp LEFT_SHIFT
+&kp F1       &kp F2   &kp F3             &kp F4         &kp F5                                                  &kp Y          &kp UP_ARROW    &kp I            &kp LANG_KATAKANA  &kp INT_KANA
+&kp AT_SIGN  &kp SQT  &kp DOUBLE_QUOTES  &kp SEMICOLON  &kp COLON     &kp N1          &kp INT_KATAKANAHIRAGANA  &kp LEFT       &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RIGHT          &kp INT_MUHENKAN
+&kp Z        &kp X    &kp C              &kp V          &kp B         &kp LEFT_BRACE  &kp RIGHT_BRACE           &kp LC(SPACE)  &kp RG(SPACE)   &kp LEFT_BRACE   &kp RIGHT_BRACE    &kp SLASH
+&kp RSHIFT   &kp TAB  &kp LCTRL          &kp RGUI       &kp LEFT_ALT  &kp UNDERSCORE  &none                     &lt 2 SPACE                                                        &kp LEFT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
