@@ -69,10 +69,10 @@
 
         default_layer {
             bindings = <
-&kp Q    &kp W           &kp E             &kp R         &kp T                                   &kp Y      &kp U  &kp I     &kp O     &kp BACKSPACE
-&kp A    &kp S           &kp D             &kp F         &kp G         &to 1        &kp MINUS    &kp H      &kp J  &kp K     &kp L     &kp ENTER
-&kp Z    &kp X           &kp C             &kp V         &kp B         &lt 3 SPACE  &kp SLASH    &kp N      &kp M  &mkp MB1  &mkp MB1  &mkp MB2
-&kp TAB  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &lt 1 SPACE  &lt 2 SPACE  &kp SPACE                             &kp P
+&kp Q    &kp W           &kp E             &kp R         &kp T                                   &kp Y      &kp U  &kp I     &kp O             &kp BACKSPACE
+&kp A    &kp S           &kp D             &kp F         &kp G         &to 1        &kp MINUS    &kp H      &kp J  &kp K     &kp L             &kp ENTER
+&kp Z    &kp X           &kp C             &kp V         &kp B         &lt 3 SPACE  &kp SLASH    &kp N      &kp M  &mkp MB1  &kp C_AC_ZOOM_IN  &mkp MB2
+&kp TAB  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &lt 1 SPACE  &lt 2 SPACE  &kp SPACE                                     &kp P
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -80,10 +80,10 @@
 
         FUNCTION {
             bindings = <
-&kp N7        &kp N8        &kp N9        &kp AT_SIGN       &kp EQUAL                                      &kp N6          &kp N7        &kp N8                &kp N9                 &kp N0
-&kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp DOLLAR        &kp PERCENT        &to 0     &kp INT_MUHENKAN  &kp AMPERSAND   &kp SQT       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ENTER
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PLUS  &kp MINUS         &kp TILDE       &kp QUESTION  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp QUESTION
-&bt BT_PRV    &bt BT_NXT    &bt BT_SEL 0  &bt BT_SEL 1      &bt BT_SEL 2       &none     &kp MINUS         &bt BT_CLR_ALL                                                             &kp LEFT_SHIFT
+&kp N7        &kp N8        &kp N9        &kp AT_SIGN       &kp EQUAL                                      &kp N6          &kp N7        &kp N8      &kp N9             &kp N0
+&kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp DOLLAR        &kp PERCENT        &to 0     &kp INT_MUHENKAN  &kp AMPERSAND   &kp SQT       &kp K_COPY  &kp K_PASTE        &kp ENTER
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PLUS  &kp MINUS         &kp TILDE       &kp QUESTION  &mkp MB1    &kp C_AC_ZOOM_OUT  &mkp MB2
+&bt BT_PRV    &bt BT_NXT    &bt BT_SEL 0  &bt BT_SEL 1      &bt BT_SEL 2       &none     &kp MINUS         &bt BT_CLR_ALL                                               &kp LEFT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
