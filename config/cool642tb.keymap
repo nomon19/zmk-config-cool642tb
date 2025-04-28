@@ -69,10 +69,10 @@
 
         default_layer {
             bindings = <
-&kp Q    &kp W           &kp E             &kp R         &kp T                                   &kp Y          &kp U  &kp I     &kp O     &kp P
-&kp A    &kp S           &kp D             &kp F         &kp G         &to 1        &kp MINUS    &kp H          &kp J  &kp K     &kp L     &kp ENTER
-&kp Z    &kp X           &kp C             &kp V         &kp B         &lt 3 SPACE  &kp SLASH    &kp N          &kp M  &mkp MB1  &mkp MB2  &kp PERIOD
-&kp TAB  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &lt 1 SPACE  &lt 2 SPACE  &kp BACKSPACE                             &kp COMMA
+&kp Q    &kp W           &kp E             &kp R         &kp T                                   &kp Y  &kp U  &kp I     &kp O     &kp BACKSPACE
+&kp A    &kp S           &kp D             &kp F         &kp G         &to 1        &kp MINUS    &kp H  &kp J  &kp K     &kp L     &kp ENTER
+&kp Z    &kp X           &kp C             &kp V         &kp B         &lt 3 SPACE  &kp SLASH    &kp N  &kp M  &mkp MB1  &mkp MB2  &kp PERIOD
+&kp TAB  &kp LEFT_SHIFT  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &lt 1 SPACE  &lt 2 SPACE  &kp P                             &kp COMMA
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -91,10 +91,10 @@
 
         NUM {
             bindings = <
-&kp F1       &kp F2   &kp F3             &kp F4         &kp F5                                                  &kp Y          &kp UP_ARROW    &kp I            &kp LANG_KATAKANA  &kp INT_KANA
-&kp AT_SIGN  &kp SQT  &kp DOUBLE_QUOTES  &kp SEMICOLON  &kp COLON     &kp N1          &kp INT_KATAKANAHIRAGANA  &kp LEFT       &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RIGHT          &kp INT_MUHENKAN
-&kp Z        &kp X    &kp C              &kp V          &kp B         &kp LEFT_BRACE  &kp RIGHT_BRACE           &kp LC(SPACE)  &kp RG(SPACE)   &kp LEFT_BRACE   &kp RIGHT_BRACE    &kp SLASH
-&kp RSHIFT   &kp TAB  &kp LCTRL          &kp RGUI       &kp LEFT_ALT  &kp UNDERSCORE  &none                     &lt 2 SPACE                                                        &kp LEFT_SHIFT
+&kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp F4         &kp F5                                                  &kp Y          &kp UP_ARROW    &kp I            &kp LANG_KATAKANA  &kp INT_KANA
+&kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SEMICOLON  &kp COLON     &kp N1          &kp INT_KATAKANAHIRAGANA  &kp LEFT       &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RIGHT          &kp INT_MUHENKAN
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0   &kp B         &kp LEFT_BRACE  &kp RIGHT_BRACE           &kp LC(SPACE)  &kp RG(SPACE)   &kp P            &kp RIGHT_BRACE    &kp SLASH
+&kp RSHIFT    &kp TAB       &kp LCTRL     &kp RGUI       &kp LEFT_ALT  &kp UNDERSCORE  &none                     &lt 2 SPACE                                                        &kp LEFT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
