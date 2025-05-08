@@ -93,7 +93,7 @@
 &kp N7        &kp N8        &kp N9        &kp AT_SIGN       &kp EQUAL                                      &kp N6          &kp N7        &kp N8      &kp N9       &kp N0
 &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp DOLLAR        &kp PERCENT        &to 0     &kp INT_MUHENKAN  &kp AMPERSAND   &kp SQT       &kp K_COPY  &kp K_PASTE  &kp ENTER
 &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PLUS  &kp MINUS         &kp TILDE       &kp QUESTION  &kp SLASH   &mkp MB1     &mkp MB2
-&bt BT_PRV    &bt BT_NXT    &bt BT_SEL 0  &bt BT_SEL 1      &bt BT_SEL 2       &none     &kp MINUS         &bt BT_CLR_ALL                                         &kp LEFT_SHIFT
+&bt BT_PRV    &bt BT_NXT    &bt BT_SEL 0  &bt BT_SEL 1      &kp LGUI           &none     &kp MINUS         &bt BT_CLR_ALL                                         &kp LEFT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
