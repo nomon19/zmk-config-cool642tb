@@ -41,7 +41,6 @@
             bindings = <&bt BT_CLR_ALL>;
             key-positions = <9 8>;
             timeout-ms = <0>;
-            layers = <2>;
         };
     };
 
@@ -80,45 +79,12 @@
         default_layer {
             bindings = <
 &kp Q           &kp W         &kp E           &kp R         &kp T                                     &kp U        &kp I  &kp O      &kp P    &kp BACKSPACE
-&kp A           &kp S         &kp D           &kp F         &kp G           &to 1        &kp Y        &kp H        &kp J  &kp K      &kp L    &kp ENTER
-&kp Z           &kp X         &kp C           &kp V         &kp B           &lt 3 PLUS   &kp SLASH    &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LEFT_SHIFT  &kp LEFT_ALT  &kp LANGUAGE_2  &kp LEFT_GUI  &kp LANGUAGE_1  &lt 1 SPACE  &lt 8 SPACE  &lt 9 SPACE                             &kp RIGHT_SHIFT
+&kp A           &kp S         &kp D           &kp F         &kp G           &to 0        &kp Y        &kp H        &kp J  &kp K      &kp L    &kp ENTER
+&kp Z           &kp X         &kp C           &kp V         &kp B           &lt 0 PLUS   &kp SLASH    &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LEFT_SHIFT  &kp LEFT_ALT  &kp LANGUAGE_2  &kp LEFT_GUI  &kp LANGUAGE_1  &lt 0 SPACE  &lt 3 SPACE  &lt 4 SPACE                             &kp RIGHT_SHIFT
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
-        };
-
-        FUNCTION {
-            bindings = <
-&kp N7        &kp N8        &kp N9        &kp AT_SIGN       &kp EQUAL                                  &kp N6          &kp N7    &kp N8      &kp N9       &kp N0
-&kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp DOLLAR        &kp PERCENT        &to 0     &kp ASTERISK  &kp QUESTION    &kp EXCL  &kp K_COPY  &kp K_PASTE  &kp ENTER
-&bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PLUS  &kp SLASH     &kp SPACE       &kp LALT  &kp SLASH   &mkp MB1     &mkp MB2
-&bt BT_PRV    &bt BT_NXT    &bt BT_SEL 0  &bt BT_SEL 1      &kp LGUI           &none     &kp MINUS     &bt BT_CLR_ALL                                     &kp LEFT_SHIFT
-            >;
-
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
-        };
-
-        NUM {
-            bindings = <
-&kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp F4         &kp F5                                                  &kp Y          &kp UP_ARROW    &kp I            &kp LANG_KATAKANA  &kp INT_KANA
-&kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SEMICOLON  &kp COLON     &kp N1          &kp INT_KATAKANAHIRAGANA  &kp LEFT       &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RIGHT          &kp INT_MUHENKAN
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0   &kp MINUS     &kp LEFT_BRACE  &kp RIGHT_BRACE           &kp LC(SPACE)  &kp RG(SPACE)   &kp P            &kp RIGHT_BRACE    &kp SLASH
-&kp RSHIFT    &kp TAB       &kp LCTRL     &kp RGUI       &kp LEFT_ALT  &kp UNDERSCORE  &none                     &lt 2 SPACE                                                        &kp LEFT_SHIFT
-            >;
-
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
-        };
-
-        ARROW {
-            bindings = <
-&kp Q       &kp W      &kp E     &kp R     &kp T                        &kp Y        &kp U  &kp I      &kp O       &kp P
-&kp A       &kp S      &kp D     &kp F     &kp G        &kp N1  &kp N2  &kp H        &kp J  &kp K      &kp L       &kp ENTER
-&kp Z       &kp X      &kp C     &kp V     &kp B        &kp N3  &kp N4  &kp N        &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
-&kp RSHIFT  &kp LCTRL  &kp LGUI  &kp LALT  &lt 1 SPACE  &kp N5  &kp N6  &lt 2 SPACE                                &kp BSPC
-            >;
-
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         MOUSE {
@@ -126,29 +92,7 @@
 &kp Q       &kp W    &kp E             &kp R         &kp T                            &kp Y          &kp U  &kp I     &kp O     &kp P
 &kp A       &kp S    &kp D             &kp F         &kp G     &kp N1    &kp N2       &kp H          &kp J  &mkp MB1  &mkp MB2  &kp ENTER
 &kp Z       &kp X    &kp C             &kp V         &kp B     &kp N3    &kp N4       &kp N          &kp M  &mkp MB3  &mkp MB2  &msc MOVE_Y(5)
-&kp ESCAPE  &kp TAB  &kp LEFT_CONTROL  &kp LEFT_GUI  &mkp MB1  &mkp MB2  &lt 2 SPACE  &kp BACKSPACE                             &kp LEFT_SHIFT
-            >;
-
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
-        };
-
-        SCROLL {
-            bindings = <
-&kp Q       &kp W      &kp E     &kp R     &kp T                        &kp Y        &kp U  &kp I      &kp O       &kp P
-&kp A       &kp S      &kp D     &kp F     &kp G        &kp N1  &kp N2  &kp H        &kp J  &kp K      &kp L       &kp ENTER
-&kp Z       &kp X      &kp C     &kp V     &kp B        &kp N3  &kp N4  &kp N        &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
-&kp RSHIFT  &kp LCTRL  &kp LGUI  &kp LALT  &lt 1 SPACE  &kp N5  &kp N6  &lt 2 SPACE                                &kp BSPC
-            >;
-
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
-        };
-
-        layer_6 {
-            bindings = <
-&kp Q       &kp W      &kp E     &kp R     &kp T                        &kp Y        &kp U  &kp I      &kp O       &kp P
-&kp A       &kp S      &kp D     &kp F     &kp G        &kp N1  &kp N2  &kp H        &kp J  &kp K      &kp L       &kp ENTER
-&kp Z       &kp X      &kp C     &kp V     &kp B        &kp N3  &kp N4  &kp N        &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
-&kp RSHIFT  &kp LCTRL  &kp LGUI  &kp LALT  &lt 1 SPACE  &kp N5  &kp N6  &lt 2 SPACE                                &kp BSPC
+&kp ESCAPE  &kp TAB  &kp LEFT_CONTROL  &kp LEFT_GUI  &mkp MB1  &mkp MB2  &lt 0 SPACE  &kp BACKSPACE                             &kp LEFT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
