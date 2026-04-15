@@ -91,7 +91,7 @@
             bindings = <
 &kp Q       &kp W    &kp E             &kp R         &kp T                            &kp Y          &kp U  &kp I     &kp O     &kp P
 &kp A       &kp S    &kp D             &kp F         &kp G     &kp N1    &kp N2       &kp H          &kp J  &mkp MB1  &mkp MB2  &kp ENTER
-&kp Z       &kp X    &kp C             &kp V         &kp B     &kp N3    &kp N4       &kp N          &kp M  &mkp MB3  &mkp MB2  &msc MOVE_Y(5)
+&kp Z       &kp X    &kp C             &kp V         &kp B     &kp N3    &kp N4       &kp N          &kp M  &mkp MB3  &mkp MB4  &msc MOVE_Y(5)
 &kp ESCAPE  &kp TAB  &kp LEFT_CONTROL  &kp LEFT_GUI  &mkp MB1  &mkp MB2  &lt 0 SPACE  &kp BACKSPACE                             &kp LEFT_SHIFT
             >;
 
