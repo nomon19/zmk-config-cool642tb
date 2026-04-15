@@ -172,7 +172,7 @@
             >;
         };
 
-        FUNCTION {
+        FUNCTION2 {
             bindings = <
 &trans  &trans          &trans          &trans           &trans                      &trans  &trans          &trans          &trans           &kp PRINTSCREEN
 &trans  &trans          &msc SCRL_UP    &trans           &trans      &trans  &trans  &trans  &trans          &kp UP_ARROW    &trans           &trans
